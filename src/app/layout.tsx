@@ -23,7 +23,10 @@ export default function RootLayout({
         />
       </head>
       <body className={`${GeistSans.variable} font-sans antialiased`}>
-        <header className="fixed right-6 top-6 z-10 sm:right-12 md:right-16">
+        <header className="fixed left-6 right-6 top-6 z-10 flex items-center justify-between sm:left-12 sm:right-12 md:left-16 md:right-16">
+          <a href="/" aria-label="Home" className="flex items-center">
+            <img src="/logo.svg" alt="logo" className="h-8 w-8" />
+          </a>
           <ThemeToggle />
         </header>
         {children}
