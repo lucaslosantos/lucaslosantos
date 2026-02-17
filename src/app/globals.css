@@ -23,6 +23,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans, system-ui), system-ui, sans-serif;
   text-transform: lowercase;
+  caret-color: var(--brand);
 }
 
 a {

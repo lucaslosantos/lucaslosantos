@@ -19,8 +19,6 @@ export default function Home() {
           <br />
           p2p interactions.
           <br />
-          shared routines.
-          <br />
           the boring parts no one bothers to redesign.
         </p>
 
