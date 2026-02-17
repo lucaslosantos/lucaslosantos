@@ -12,11 +12,12 @@ export const metadata: Metadata = {
     description: "product. builder. obsessed.",
     url: "https://lucaslosantos.com",
     siteName: "lucas losantos",
+    images: [],
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "lucas losantos",
     description: "product. builder. obsessed.",
   },
