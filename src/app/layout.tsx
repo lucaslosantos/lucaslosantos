@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "product. builder. obsessed.",
   },
   icons: {
-    icon: "/logo.svg",
+    icon: "/icon.svg",
   },
 };
 
