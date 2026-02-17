@@ -1,13 +1,7 @@
 # lucas losantos
 
-minimal personal site.
+product builder. obsessed with upgrading daily life and redesigning the boring parts.
 
-## dev
+building [naiss](https://naissride.com) — madrid.
 
-```bash
-pnpm dev
-```
-
-## deploy
-
-push to github → connect repo at [vercel.com](https://vercel.com) → done.
+[website](https://lucaslosantos.com)
