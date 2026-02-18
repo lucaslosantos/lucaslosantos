@@ -1,0 +1,45 @@
+/* Finger image arc animation - from bottom-right to final position */
+
+@keyframes finger-arc-in {
+  0% {
+    transform: translate(50%, 100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(15%, 35%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes finger-arc-out {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(15%, 35%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(50%, 100%);
+    opacity: 0;
+  }
+}
+
+.finger-img {
+  transform: translate(50%, 100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.finger-img.is-visible {
+  animation: finger-arc-in 0.45s ease-out forwards;
+}
+
+.finger-img.is-hiding {
+  animation: finger-arc-out 0.4s ease-in forwards;
+}
