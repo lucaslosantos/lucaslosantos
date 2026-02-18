@@ -38,4 +38,6 @@ a:hover {
 
 a[href*="naissride"]:hover {
   color: var(--brand);
+  text-decoration: none;
+  font-weight: bold;
 }
