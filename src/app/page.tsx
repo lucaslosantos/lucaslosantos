@@ -2,19 +2,19 @@ import { UnderlinedTitle } from "@/components/UnderlinedTitle";
 
 export default function Home() {
   return (
-    <main className="min-h-screen px-6 py-24 sm:px-12 sm:py-32 md:px-16">
-      <article className="mx-auto max-w-xl">
+    <main className="flex min-h-screen flex-col justify-center px-6 py-12 sm:px-12 sm:py-24 md:px-16">
+      <article className="mx-auto max-w-xl text-left">
         <p>
           <UnderlinedTitle />
         </p>
 
-        <p className="mt-8 text-lg leading-relaxed text-black/80 dark:text-white/80">
+        <p className="mt-7 text-lg leading-[1.55] text-black/80 dark:text-white/80">
           slightly delusional.
           <br />
           i build what i want to use.
         </p>
 
-        <p className="mt-12 text-lg leading-relaxed text-black/80 dark:text-white/80">
+        <p className="mt-8 text-lg leading-[1.55] text-black/80 dark:text-white/80">
           i&apos;m interested in upgrading daily life.
           <br />
           p2p interactions.
@@ -22,19 +22,8 @@ export default function Home() {
           the boring parts no one bothers to redesign.
         </p>
 
-        <p className="mt-12 text-lg leading-relaxed text-black/80 dark:text-white/80">
+        <p className="mt-8 text-lg leading-[1.55] text-black/80 dark:text-white/80">
           right now i&apos;m making commutes{" "}
-          <a
-            href="https://naissride.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-brand"
-          >
-            naiss
-          </a>
-          .
-          <br />
-          faster. cheaper. more social.{" "}
           <a
             href="https://naissride.com"
             target="_blank"
@@ -44,9 +33,9 @@ export default function Home() {
             naisser
           </a>
           .
-        </p>
-
-        <p className="mt-12 text-lg leading-relaxed text-black/80 dark:text-white/80">
+          <br />
+          faster. cheaper. more social.
+          <br />
           <a
             href="https://naissride.com"
             target="_blank"
@@ -54,10 +43,8 @@ export default function Home() {
             className="transition-colors hover:text-brand"
           >
             naiss
-          </a>{" "}
-          isn&apos;t a product.
-          <br />
-          it&apos;s a philosophy.
+          </a>
+          .
         </p>
 
         <footer className="mt-24 flex flex-col gap-4 text-sm text-black/60 dark:text-white/60 [&_a:hover]:no-underline">
