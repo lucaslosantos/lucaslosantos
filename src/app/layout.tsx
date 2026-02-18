@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "lucas losantos",
     description: "product. builder. obsessed.",
+    images: [],
   },
   icons: {
     icon: "/icon.svg",
